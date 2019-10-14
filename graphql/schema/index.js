@@ -1,3 +1,5 @@
+// adds the graphQL schema that will actually be executed
+
 const { buildSchema } = require('graphql');
 
 module.exports = buildSchema(`
